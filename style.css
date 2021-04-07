@@ -134,12 +134,11 @@ header .login .btn button {
 }
 
 .user-location {
+  margin-left: 150px;
   margin-top: 110px;
 }
 
 .user-location .rectangle {
-  margin-left: 150px;
-  padding-top: 110px;
   width: 1140px;
   height: 193px;
 }
