@@ -1,4 +1,4 @@
-$text-color : #0B132A;
+$text-color: #0b132a;
 $button-color: #f53855;
 body {
   font-family: "Rubik", sans-serif;
@@ -42,7 +42,7 @@ header {
       font-weight: 500;
       font-size: 16px;
       line-height: 19px;
-      color:$text-color;
+      color: $text-color;
     }
     .btn {
       button {
@@ -54,28 +54,28 @@ header {
         color: $button-color;
         font-weight: bold;
         border-radius: 1.5em;
-        border-color:$button-color;
+        border-color: $button-color;
       }
     }
   }
 }
-.hero-banner{
+.hero-banner {
   margin-top: 120px;
   margin-left: 150px;
   height: 382.95px;
-  .banner{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-    .text-vpn{
-      h1{
+  .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .text-vpn {
+      h1 {
         font-style: normal;
         font-size: 50px;
         font-weight: 500;
         line-height: 70px;
         color: $text-color;
       }
-      p{
+      p {
         margin-top: 20px;
         font-style: normal;
         font-size: 16px;
@@ -83,20 +83,20 @@ header {
         line-height: 30px;
         color: $text-color;
       }
-      button{
+      button {
         height: 60px;
         width: 250px;
         margin-top: 50px;
-        background: #F53838;
+        background: #f53838;
         border-radius: 10px;
-        border-color: #F53838;
-          color:#FFFFFF;
-          font-style: normal;
-          font-size: 16px;
-          line-height: 25px;
-          font-weight: bold;
+        border-color: #f53838;
+        color: #ffffff;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: bold;
       }
-      .rectangle{
+      .rectangle {
         position: relative;
         height: 60px;
         width: 211.83px;
@@ -105,9 +105,90 @@ header {
         border-radius: 10px;
       }
     }
-    .vpn-img{
+    .vpn-img {
       margin-right: 83px;
     }
   }
-  
+}
+
+.user-location {
+  margin-top: 110px;
+  .rectangle {
+    margin-left: 150px;
+    padding-top: 110px;
+    width: 1140px;
+    height: 193px;
+    .user-wraper {
+      display: flex;
+      flex-direction: row;
+      img {
+        padding: 64.99px 36.5px 73.01px 91px;
+      }
+      .user {
+        padding-top: 60px;
+        h3 {
+          font-weight: bold;
+        }
+      }
+      .spacer {
+        width: 0px;
+        height: 125.57px;
+        margin-left: 130px;
+        margin-top: 29.71px;
+        border: 2px solid #eeeff2;
+      }
+      .spacer:hover {
+        border: 2px solid #9eb4f7;
+      }
+    }
+
+    .location-wraper {
+      display: flex;
+      flex-direction: row;
+      img {
+        padding: 64.99px 36.5px 73.01px 91px;
+      }
+      .location {
+        padding-top: 60px;
+        h3 {
+          font-weight: bold;
+        }
+      }
+      .spacer {
+        width: 0px;
+        height: 125.57px;
+        margin-left: 130px;
+        margin-top: 29.71px;
+        border: 2px solid #eeeff2;
+      }
+      .spacer:hover {
+        border: 2px solid #9eb4f7;
+      }
+    }
+
+    .server-wraper {
+      display: flex;
+      flex-direction: row;
+      img {
+        padding: 64.99px 36.5px 73.01px 91px;
+      }
+      .server {
+        padding-top: 60px;
+        h3 {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .rectangle-shadow {
+    position: relative;
+    width: 1068.84px;
+    height: 189.22px;
+    margin-left: 150px;
+    margin-top: 110px;
+    background: #0d1025;
+    opacity: 0.06;
+    filter: blur(114px);
+    border-radius: 10px;
+  }
 }

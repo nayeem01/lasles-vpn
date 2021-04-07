@@ -54,7 +54,7 @@ header .login a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 header .login .btn button {
@@ -93,7 +93,7 @@ header .login .btn button {
   font-size: 50px;
   font-weight: 500;
   line-height: 70px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .hero-banner .banner .text-vpn p {
@@ -102,17 +102,17 @@ header .login .btn button {
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .hero-banner .banner .text-vpn button {
   height: 60px;
   width: 250px;
   margin-top: 50px;
-  background: #F53838;
+  background: #f53838;
   border-radius: 10px;
-  border-color: #F53838;
-  color: #FFFFFF;
+  border-color: #f53838;
+  color: #ffffff;
   font-style: normal;
   font-size: 16px;
   line-height: 25px;
@@ -131,5 +131,119 @@ header .login .btn button {
 
 .hero-banner .banner .vpn-img {
   margin-right: 83px;
+}
+
+.user-location {
+  margin-top: 110px;
+}
+
+.user-location .rectangle {
+  margin-left: 150px;
+  padding-top: 110px;
+  width: 1140px;
+  height: 193px;
+}
+
+.user-location .rectangle .user-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.user-location .rectangle .user-wraper img {
+  padding: 64.99px 36.5px 73.01px 91px;
+}
+
+.user-location .rectangle .user-wraper .user {
+  padding-top: 60px;
+}
+
+.user-location .rectangle .user-wraper .user h3 {
+  font-weight: bold;
+}
+
+.user-location .rectangle .user-wraper .spacer {
+  width: 0px;
+  height: 125.57px;
+  margin-left: 130px;
+  margin-top: 29.71px;
+  border: 2px solid #eeeff2;
+}
+
+.user-location .rectangle .user-wraper .spacer:hover {
+  border: 2px solid #9eb4f7;
+}
+
+.user-location .rectangle .location-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.user-location .rectangle .location-wraper img {
+  padding: 64.99px 36.5px 73.01px 91px;
+}
+
+.user-location .rectangle .location-wraper .location {
+  padding-top: 60px;
+}
+
+.user-location .rectangle .location-wraper .location h3 {
+  font-weight: bold;
+}
+
+.user-location .rectangle .location-wraper .spacer {
+  width: 0px;
+  height: 125.57px;
+  margin-left: 130px;
+  margin-top: 29.71px;
+  border: 2px solid #eeeff2;
+}
+
+.user-location .rectangle .location-wraper .spacer:hover {
+  border: 2px solid #9eb4f7;
+}
+
+.user-location .rectangle .server-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.user-location .rectangle .server-wraper img {
+  padding: 64.99px 36.5px 73.01px 91px;
+}
+
+.user-location .rectangle .server-wraper .server {
+  padding-top: 60px;
+}
+
+.user-location .rectangle .server-wraper .server h3 {
+  font-weight: bold;
+}
+
+.user-location .rectangle-shadow {
+  position: relative;
+  width: 1068.84px;
+  height: 189.22px;
+  margin-left: 150px;
+  margin-top: 110px;
+  background: #0d1025;
+  opacity: 0.06;
+  -webkit-filter: blur(114px);
+          filter: blur(114px);
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
