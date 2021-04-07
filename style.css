@@ -54,7 +54,7 @@ header .login a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  color: #0b132a;
+  color: #0B132A;
 }
 
 header .login .btn button {
@@ -67,5 +67,69 @@ header .login .btn button {
   font-weight: bold;
   border-radius: 1.5em;
   border-color: #f53855;
+}
+
+.hero-banner {
+  margin-top: 120px;
+  margin-left: 150px;
+  height: 382.95px;
+}
+
+.hero-banner .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-banner .banner .text-vpn h1 {
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #0B132A;
+}
+
+.hero-banner .banner .text-vpn p {
+  margin-top: 20px;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #0B132A;
+}
+
+.hero-banner .banner .text-vpn button {
+  height: 60px;
+  width: 250px;
+  margin-top: 50px;
+  background: #F53838;
+  border-radius: 10px;
+  border-color: #F53838;
+  color: #FFFFFF;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.hero-banner .banner .text-vpn .rectangle {
+  position: relative;
+  height: 60px;
+  width: 211.83px;
+  background: rgba(245, 56, 56, 0.35);
+  -webkit-filter: blur(54px);
+          filter: blur(54px);
+  border-radius: 10px;
+}
+
+.hero-banner .banner .vpn-img {
+  margin-right: 83px;
 }
 /*# sourceMappingURL=style.css.map */
