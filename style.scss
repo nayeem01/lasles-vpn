@@ -191,6 +191,138 @@ header {
     border-radius: 10px;
   }
 }
+
+.service {
+  margin-left: 183px;
+  font-style: normal;
+
+  .title {
+    padding-top: 19px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0b132a;
+  }
+  .subtitle {
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+  .list {
+    padding-top: 20px;
+    ul {
+      list-style: none;
+      li {
+        margin-left: -45px;
+        padding: 15px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 30px;
+        color: #4f5665;
+      }
+    }
+  }
+}
+
+.plan {
+  padding-top: 83px;
+  margin-left: 150px;
+  .content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 35px;
+      line-height: 50px;
+      color: #0b132a;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      color: #4f5665;
+    }
+  }
+
+  .price {
+    .free {
+      width: 330px;
+      height: 760px;
+      background: #ffffff;
+      border: 2px solid #dddddd;
+      box-sizing: border-box;
+      border-radius: 10px;
+      .free-img {
+        padding-top: 70px;
+        padding-left: 92px;
+      }
+      h3 {
+        padding-top: 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #0b132a;
+      }
+      ul {
+        list-style: none;
+        li {
+          padding-left: 58px;
+          padding-top: 30px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 30px;
+          color: #4f5665;
+        }
+      }
+      .text-free {
+        padding-top: 130p;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #0b132a;
+      }
+      .free-btn {
+        padding-top: 30px;
+        padding-left: 76px;
+        button {
+          width: 177.88px;
+          height: 45px;
+          border-radius: 1.5em;
+          border-color: #f53838;
+          background-color: #ffffff;
+          color: #f53838;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+    }
+    .standard {
+      width: 330px;
+      height: 760px;
+      background: #ffffff;
+      border: 2px solid #dddddd;
+      box-sizing: border-box;
+      border-radius: 10px;
+      .standard-img {
+        @extend .free-img;
+      }
+    }
+  }
+}
+
 footer {
   background-color: #f8f8f8;
   padding-left: 150px;

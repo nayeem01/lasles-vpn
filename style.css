@@ -246,6 +246,153 @@ header .login .btn button {
   border-radius: 10px;
 }
 
+.service {
+  margin-left: 183px;
+  font-style: normal;
+}
+
+.service .title {
+  padding-top: 19px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+}
+
+.service .subtitle {
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.service .list {
+  padding-top: 20px;
+}
+
+.service .list ul {
+  list-style: none;
+}
+
+.service .list ul li {
+  margin-left: -45px;
+  padding: 15px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.plan {
+  padding-top: 83px;
+  margin-left: 150px;
+}
+
+.plan .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.plan .content h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+}
+
+.plan .content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.plan .price .free {
+  width: 330px;
+  height: 760px;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.plan .price .free .free-img, .plan .price .free .standard .standard-img, .plan .price .standard .free .standard-img {
+  padding-top: 70px;
+  padding-left: 92px;
+}
+
+.plan .price .free h3 {
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.plan .price .free ul {
+  list-style: none;
+}
+
+.plan .price .free ul li {
+  padding-left: 58px;
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.plan .price .free .text-free {
+  padding-top: 130p;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #0b132a;
+}
+
+.plan .price .free .free-btn {
+  padding-top: 30px;
+  padding-left: 76px;
+}
+
+.plan .price .free .free-btn button {
+  width: 177.88px;
+  height: 45px;
+  border-radius: 1.5em;
+  border-color: #f53838;
+  background-color: #ffffff;
+  color: #f53838;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.plan .price .standard {
+  width: 330px;
+  height: 760px;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
 footer {
   background-color: #f8f8f8;
   padding-left: 150px;
