@@ -245,4 +245,116 @@ header .login .btn button {
           filter: blur(114px);
   border-radius: 10px;
 }
+
+footer {
+  background-color: #f8f8f8;
+  padding-left: 150px;
+}
+
+footer .social-media img {
+  padding-bottom: 20px;
+}
+
+footer .social-media p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  padding-bottom: 20px;
+}
+
+footer .social-media .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .social-media .social-icons i {
+  border-radius: 50%;
+  -webkit-box-shadow: 10px -10px 5px #ccc;
+          box-shadow: 10px -10px 5px #ccc;
+  margin-left: 10px;
+  padding: 0.5em;
+  font-size: 25px;
+  color: #f53838;
+}
+
+footer .social-media .copyright {
+  width: 132px;
+  height: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #afb5c0;
+}
+
+footer .product-enage-earn {
+  font-style: normal;
+}
+
+footer .product-enage-earn .product h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+footer .product-enage-earn .product ul {
+  list-style: none;
+}
+
+footer .product-enage-earn .product ul li {
+  padding: 0px;
+  margin-left: -30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+footer .enage h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+footer .enage ul {
+  list-style: none;
+}
+
+footer .enage ul li {
+  padding: 0px;
+  margin-left: -30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+footer .earn h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+footer .earn ul {
+  list-style: none;
+}
+
+footer .earn ul li {
+  padding: 0px;
+  margin-left: -30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+}
 /*# sourceMappingURL=style.css.map */

@@ -191,3 +191,102 @@ header {
     border-radius: 10px;
   }
 }
+footer {
+  background-color: #f8f8f8;
+  padding-left: 150px;
+  .social-media {
+    img {
+      padding-bottom: 20px;
+    }
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      color: #4f5665;
+      padding-bottom: 20px;
+    }
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      i {
+        border-radius: 50%;
+        box-shadow: 10px -10px 5px #ccc;
+        margin-left: 10px;
+        padding: 0.5em;
+        font-size: 25px;
+        color: #f53838;
+      }
+    }
+    .copyright {
+      width: 132px;
+      height: 30px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 30px;
+      color: #afb5c0;
+    }
+  }
+
+  .product-enage-earn {
+    font-style: normal;
+    .product {
+      h3 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #0b132a;
+      }
+      ul {
+        list-style: none;
+        li {
+          padding: 0px;
+          margin-left: -30px;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 30px;
+          color: #4f5665;
+        }
+      }
+    }
+  }
+  .enage {
+    h3 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: #0b132a;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: 0px;
+        margin-left: -30px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #4f5665;
+      }
+    }
+  }
+  .earn {
+    h3 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: #0b132a;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: 0px;
+        margin-left: -30px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        color: #4f5665;
+      }
+    }
+  }
+}
